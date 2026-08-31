@@ -1,0 +1,71 @@
+# .project metadata for SPIFFE
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "spiffe"
+name: "SPIFFE"
+description: "A universal identity control plane for distributed systems"
+type: "project"
+project_lead: "arndt-s" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#clubzero"
+    primary: true
+
+maturity_log:
+  - phase: "graduated"
+    date: "2018-03-29T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/930" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/spiffe/spiffe"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://spiffe.io/"
+
+artwork: "https://landscape.cncf.io/logos/spiffe.svg"
+
+adopters:
+  path: "https://github.com/spiffe/spire/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "spiffe/spire"
+
+social:
+  twitter: "https://twitter.com/spiffeio"
+
+security:
+  policy:
+    path: "https://github.com/spiffe/spire/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/spiffe/spire/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/spiffe/spire/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/spiffe/spire/blob/main/CODE-OF-CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/spiffe/spire/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/spiffe/spire/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Key Management"
+
+# CLOMonitor Score: 54/100
+# Documentation: 90 | License: 75 | Best Practices: 11 | Security: 36
