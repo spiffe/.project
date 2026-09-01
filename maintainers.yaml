@@ -7,18 +7,33 @@ maintainers:
   - project_id: "spiffe"
     org: "spiffe"
     teams:
-      - name: "maintainers"
+      # Source of truth: https://github.com/spiffe/spiffe/blob/main/CODEOWNERS
+      - name: "spiffe-maintainers"
         members:
           - arndt-s
           - sorindumitru
           - strideynet
           - azdagron
-          - v0lkan
-          - mrsabath
+      # Source of truth: https://github.com/spiffe/spiffe/blob/main/ssc/README.md
+      - name: "ssc"
+        members:
+          - sorindumitru # term ends 2028-06-16
+          - arndt-s # term ends 2027-11-01
+          - strideynet # term ends 2027-11-01
+          - v0lkan # term ends 2027-05-10
+          - mrsabath # term ends 2027-05-10
+      # Source of truth: https://github.com/spiffe/spire/blob/main/CODEOWNERS
+      - name: "spire-maintainers"
+        members:
+          - sorindumitru
           - evan2645
           - MarcosDY
           - amartinezfayo
           - rturner3
+      # Supplemental maintainer group for tiny projects, see
+      # https://github.com/spiffe/spiffe/blob/main/NEW_PROJECTS.md#tiny-projects
+      - name: "tiny-projects-maintainers"
+        members:
           - kfox1111
       # Unmanaged teams: teams with "managed: false" are tracked in this
       # file for documentation but are excluded from CNCF resource
