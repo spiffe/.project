@@ -17,22 +17,14 @@ repositories:
   # Core
   - url: "https://github.com/spiffe/spiffe"
     primary: true
-  - url: "https://github.com/spiffe/spire"
   # Libraries and SDKs
   - url: "https://github.com/spiffe/go-spiffe"
   - url: "https://github.com/spiffe/java-spiffe"
-  - url: "https://github.com/spiffe/spire-api-sdk"
-  - url: "https://github.com/spiffe/spire-plugin-sdk"
   # Tooling and integrations
   - url: "https://github.com/spiffe/spiffe-helper"
   - url: "https://github.com/spiffe/spiffe-csi"
-  - url: "https://github.com/spiffe/spire-controller-manager"
-  - url: "https://github.com/spiffe/helm-charts-hardened"
-  - url: "https://github.com/spiffe/tornjak"
   - url: "https://github.com/spiffe/aws-spiffe-workload-helper"
   - url: "https://github.com/spiffe/spiffe-step-ssh"
-  - url: "https://github.com/spiffe/spire-ha-agent"
-  - url: "https://github.com/spiffe/spire-tpm-plugin"
   - url: "https://github.com/spiffe/k8s-spiffe-workload-jwt-exec-auth"
   - url: "https://github.com/spiffe/spiffefs"
   # Tiny projects
@@ -41,10 +33,8 @@ repositories:
   # SPIKE
   - url: "https://github.com/spiffe/spike"
   - url: "https://github.com/spiffe/spike-sdk-go"
-  # Documentation and examples
+  # Documentation
   - url: "https://github.com/spiffe/spiffe.io"
-  - url: "https://github.com/spiffe/spire-tutorials"
-  - url: "https://github.com/spiffe/spire-examples"
 
 website: "https://spiffe.io/"
 
@@ -52,12 +42,6 @@ artwork: "https://raw.githubusercontent.com/spiffe/spiffe/main/community/logo/25
 
 adopters:
   path: "https://github.com/spiffe/spire/blob/main/ADOPTERS.md"
-
-package_managers:
-  docker:
-    - "ghcr.io/spiffe/spire-server"
-    - "ghcr.io/spiffe/spire-agent"
-    - "ghcr.io/spiffe/oidc-discovery-provider"
 
 social:
   twitter: "https://twitter.com/spiffeio"
@@ -70,13 +54,13 @@ security:
 
 governance:
   contributing:
-    path: "https://github.com/spiffe/spire/blob/main/CONTRIBUTING.md"
+    path: "https://github.com/spiffe/spiffe/blob/main/CONTRIBUTING.md"
   code_of_conduct:
-    path: "https://github.com/spiffe/spire/blob/main/CODE-OF-CONDUCT.md"
+    path: "https://github.com/spiffe/spiffe/blob/main/CODE-OF-CONDUCT.md"
 
 legal:
   license:
-    path: "https://github.com/spiffe/spire/blob/main/LICENSE"
+    path: "https://github.com/spiffe/spiffe/blob/main/LICENSE"
   identity_type:
     has_dco: true
     has_cla: false
@@ -85,7 +69,7 @@ legal:
 
 documentation:
   readme:
-    path: "https://github.com/spiffe/spire/blob/main/README.md"
+    path: "https://github.com/spiffe/spiffe/blob/main/README.md"
 
 landscape:
   category: "Provisioning"
