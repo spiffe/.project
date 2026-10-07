@@ -1,0 +1,14 @@
+# Index of the CNCF projects maintained in this GitHub organization.
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+#
+# Each project owns a directory containing its own project.yaml and
+# maintainers.yaml. Remove an entry here only when CNCF archives the project.
+
+schema_version: "1.0.0"
+org: "spiffe"
+
+projects:
+  # SPIFFE (graduated)
+  - id: "spiffe"
+  # SPIRE (graduated)
+  - id: "spire"

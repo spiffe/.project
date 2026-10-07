@@ -1,0 +1,79 @@
+# .project metadata for SPIRE
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+schema_version: "1.0.0"
+slug: "spire"
+name: "SPIRE"
+description: "The SPIFFE Runtime Environment"
+type: "project"
+project_lead: "spiffe/ssc"
+
+maturity_log:
+  - phase: "graduated"
+    date: "2022-08-22T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/930"
+
+repositories:
+  # Core
+  - url: "https://github.com/spiffe/spire"
+    primary: true
+  # Libraries and SDKs
+  - url: "https://github.com/spiffe/spire-api-sdk"
+  - url: "https://github.com/spiffe/spire-plugin-sdk"
+  # Tooling and integrations
+  - url: "https://github.com/spiffe/spire-controller-manager"
+  - url: "https://github.com/spiffe/helm-charts-hardened"
+  - url: "https://github.com/spiffe/tornjak"
+  - url: "https://github.com/spiffe/spire-ha-agent"
+  - url: "https://github.com/spiffe/spire-tpm-plugin"
+  # Documentation and examples
+  - url: "https://github.com/spiffe/spire-tutorials"
+  - url: "https://github.com/spiffe/spire-examples"
+
+website: "https://spiffe.io/spire/"
+
+artwork: "https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/spire.svg"
+
+adopters:
+  path: "https://github.com/spiffe/spire/blob/main/ADOPTERS.md"
+
+package_managers:
+  docker:
+    - "ghcr.io/spiffe/spire-server"
+    - "ghcr.io/spiffe/spire-agent"
+    - "ghcr.io/spiffe/oidc-discovery-provider"
+
+social:
+  twitter: "https://twitter.com/spiffeio"
+
+security:
+  policy:
+    path: "https://github.com/spiffe/spire/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/spiffe/spire/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/spiffe/spire/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/spiffe/spire/blob/main/CODE-OF-CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/spiffe/spire/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/spiffe/spire/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Key Management"
+
+# CLOMonitor Score: 79/100
+# Documentation: 100 | License: 75 | Best Practices: 53 | Security: 73
