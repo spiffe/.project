@@ -32,7 +32,7 @@ repositories:
 
 website: "https://spiffe.io/spire/"
 
-artwork: "https://raw.githubusercontent.com/cncf/landscape/master/hosted_logos/spire.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/spire"
 
 adopters:
   path: "https://github.com/spiffe/spire/blob/main/ADOPTERS.md"

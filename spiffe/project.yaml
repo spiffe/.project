@@ -38,7 +38,7 @@ repositories:
 
 website: "https://spiffe.io/"
 
-artwork: "https://raw.githubusercontent.com/spiffe/spiffe/main/community/logo/256x1024.png"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/spiffe"
 
 adopters:
   path: "https://github.com/spiffe/spire/blob/main/ADOPTERS.md"
